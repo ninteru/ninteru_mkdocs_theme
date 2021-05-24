@@ -4,18 +4,18 @@ VERSION = '0.0.1'
 
 
 setup(
-    name="winterbloom-mkdocs-theme",
+    name="ninteru-mkdocs-theme",
     version="0.0.1",
-    url='https://github.com/theacodes/winterbloom_mkdocs_theme',
+    url='https://github.com/ninteru/ninteru_mkdocs_theme',
     license='MIT',
     description='',
-    author='Alethea Flowers',
-    author_email='thea@winterbloom.com',
+    author='ninteru',
+    author_email='nino.teruya@embedded.systems',
     packages=find_packages(),
     include_package_data=True,
     entry_points={
         'mkdocs.themes': [
-            'winterbloom = winterbloom_mkdocs_theme',
+            'ninteru = ninteru_mkdocs_theme',
         ]
     },
     zip_safe=False
